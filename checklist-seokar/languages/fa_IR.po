@@ -1,0 +1,638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checklist Seokar 2.0.0\n"
+"Report-Msgid-Bugs-To: https://YOUR-SUPPORT-LINK.com\n" # لینک پشتیبانی خود را جایگزین کنید
+"POT-Creation-Date: 2024-03-15 15:00+0330\n" # تاریخ ایجاد .pot
+"PO-Revision-Date: 2024-03-15 16:00+0330\n" # تاریخ آخرین ویرایش این فایل
+"Last-Translator: Sajjad Akbari <YOUR-EMAIL@example.com>\n" # اطلاعات شما
+"Language-Team: Persian <YOUR-EMAIL@example.com>\n" # اطلاعات شما
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.x.x\n" # یا ابزار دیگر
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: checklist-seokar.php:NNN
+msgid "Checklist Seokar Settings"
+msgstr "تنظیمات چک لیست سئوکار"
+
+#: checklist-seokar.php:NNN
+msgid "Checklist Seokar"
+msgstr "چک لیست سئوکار"
+
+#: checklist-seokar.php:NNN
+msgid "You do not have sufficient permissions to access this page."
+msgstr "شما مجوز کافی برای دسترسی به این صفحه را ندارید."
+
+#: checklist-seokar.php:NNN
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/checklist-settings.php:NNN includes/admin-settings-page.php:NNN
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: includes/checklist-settings.php:NNN
+msgid "Configure general parameters for the checklist analysis."
+msgstr "پارامترهای کلی برای تحلیل چک لیست را پیکربندی کنید."
+
+#: includes/checklist-settings.php:NNN includes/admin-settings-page.php:NNN
+msgid "Enabled Checklist Items"
+msgstr "موارد چک لیست فعال"
+
+#: includes/checklist-settings.php:NNN
+msgid "Choose which SEO and content checks should be performed and displayed in the checklist."
+msgstr "انتخاب کنید کدام بررسی‌های سئو و محتوا انجام شده و در چک لیست نمایش داده شوند."
+
+#: includes/checklist-settings.php:NNN includes/admin-settings-page.php:NNN
+msgid "Enabled Content Types"
+msgstr "انواع محتوای فعال"
+
+#: includes/checklist-settings.php:NNN
+msgid "Select the content types where the Checklist Seokar metabox or fields should appear."
+msgstr "انواع محتوایی که می‌خواهید متاباکس یا فیلدهای چک لیست سئوکار در آنها ظاهر شود را انتخاب کنید."
+
+#: includes/checklist-settings.php:NNN
+msgid "Minimum Content Length"
+msgstr "حداقل طول محتوا"
+
+#: includes/checklist-settings.php:NNN
+# Translators: %d: Default minimum content length
+msgid "Minimum recommended characters for main content (Default: %d)."
+msgstr "حداقل کاراکتر پیشنهادی برای محتوای اصلی (پیش‌فرض: %d)."
+
+#: includes/checklist-settings.php:NNN
+msgid "Minimum Keyword Density (%)"
+msgstr "حداقل تراکم کلمه کلیدی (٪)"
+
+#: includes/checklist-settings.php:NNN
+# Translators: %s: Default minimum keyword density percentage
+msgid "Minimum recommended keyword density (Default: %s%%)."
+msgstr "حداقل تراکم کلمه کلیدی پیشنهادی (پیش‌فرض: %s%%)."
+
+#: includes/checklist-settings.php:NNN
+msgid "Maximum Keyword Density (%)"
+msgstr "حداکثر تراکم کلمه کلیدی (٪)"
+
+#: includes/checklist-settings.php:NNN
+# Translators: %s: Default maximum keyword density percentage
+msgid "Maximum recommended keyword density (Default: %s%%). Avoid keyword stuffing."
+msgstr "حداکثر تراکم کلمه کلیدی پیشنهادی (پیش‌فرض: %s%%). از تکرار بیش از حد (Keyword Stuffing) خودداری کنید."
+
+#: includes/checklist-settings.php:NNN
+msgid "Select Checks to Enable"
+msgstr "بررسی‌های مورد نظر برای فعال‌سازی را انتخاب کنید"
+
+#: includes/checklist-settings.php:NNN
+msgid "Unchecking an item will hide it from the checklist and exclude it from the overall score calculation."
+msgstr "غیرفعال کردن یک مورد، آن را از چک لیست پنهان کرده و از محاسبه امتیاز کلی حذف می‌کند."
+
+#: includes/checklist-settings.php:NNN
+msgid "Enable for Post Types"
+msgstr "فعال‌سازی برای انواع پست"
+
+#: includes/checklist-settings.php:NNN
+msgid "Enable for Taxonomies"
+msgstr "فعال‌سازی برای طبقه‌بندی‌ها"
+
+#: includes/checklist-settings.php:NNN
+msgid "Minimum keyword density cannot be greater than maximum density. Values reset to default."
+msgstr "حداقل تراکم کلمه کلیدی نمی‌تواند بیشتر از حداکثر تراکم باشد. مقادیر به پیش‌فرض بازنشانی شدند."
+
+#: includes/checklist-settings.php:NNN
+msgid "Error: Could not load checklist items configuration."
+msgstr "خطا: بارگذاری پیکربندی موارد چک لیست ممکن نشد."
+
+#: includes/checklist-settings.php:NNN (from csk_get_checklist_items_config - labels)
+msgid "Content Length"
+msgstr "طول محتوا"
+
+#: includes/checklist-settings.php:NNN
+msgid "Heading Usage (H2-H6)"
+msgstr "استفاده از هدینگ (H2-H6)"
+
+#: includes/checklist-settings.php:NNN
+msgid "Main Keyword Entered"
+msgstr "کلمه کلیدی اصلی وارد شده"
+
+#: includes/checklist-settings.php:NNN
+msgid "SEO Title Length"
+msgstr "طول عنوان سئو"
+
+#: includes/checklist-settings.php:NNN
+msgid "Meta Description Length"
+msgstr "طول توضیحات متا"
+
+#: includes/checklist-settings.php:NNN
+msgid "Featured Image Set (Posts only)"
+msgstr "تصویر شاخص تنظیم شده (فقط پست‌ها)"
+
+#: includes/checklist-settings.php:NNN
+msgid "Internal Links"
+msgstr "لینک‌های داخلی"
+
+#: includes/checklist-settings.php:NNN
+msgid "External Links"
+msgstr "لینک‌های خارجی"
+
+#: includes/checklist-settings.php:NNN
+msgid "Keyword in SEO Title"
+msgstr "کلمه کلیدی در عنوان سئو"
+
+#: includes/checklist-settings.php:NNN
+msgid "Keyword in Meta Description"
+msgstr "کلمه کلیدی در توضیحات متا"
+
+#: includes/checklist-settings.php:NNN
+msgid "Keyword in Headings"
+msgstr "کلمه کلیدی در هدینگ‌ها"
+
+#: includes/checklist-settings.php:NNN
+msgid "Keyword Density"
+msgstr "تراکم کلمه کلیدی"
+
+#: includes/checklist-settings.php:NNN
+msgid "Keyword in URL (Slug)"
+msgstr "کلمه کلیدی در URL (اسلاگ)"
+
+#: includes/checklist-settings.php:NNN
+msgid "Image Alt Attributes"
+msgstr "متن جایگزین (Alt) تصاویر"
+
+#: includes/checklist-settings.php:NNN
+msgid "Text Structure (Sentence/Paragraph Length)"
+msgstr "ساختار متن (طول جمله/پاراگراف)"
+
+#: includes/checklist-settings.php:NNN
+msgid "Readability Score (Flesch)"
+msgstr "امتیاز خوانایی (Flesch)"
+
+#: includes/admin-settings-page.php:NNN
+msgid "General"
+msgstr "عمومی"
+
+#: includes/admin-settings-page.php:NNN
+msgid "Enabled Checks"
+msgstr "بررسی‌های فعال"
+
+#: includes/admin-settings-page.php:NNN
+msgid "Content Types"
+msgstr "انواع محتوا"
+
+#: includes/admin-settings-page.php:NNN
+msgid "Save General Settings"
+msgstr "ذخیره تنظیمات عمومی"
+
+#: includes/admin-settings-page.php:NNN
+msgid "Save Enabled Checks"
+msgstr "ذخیره بررسی‌های فعال"
+
+#: includes/admin-settings-page.php:NNN
+msgid "Save Content Type Settings"
+msgstr "ذخیره تنظیمات انواع محتوا"
+
+#: includes/ajax-handlers.php:NNN
+msgid "Nonce verification failed. Security check."
+msgstr "تأیید Nonce ناموفق بود. بررسی امنیتی."
+
+#: includes/ajax-handlers.php:NNN
+msgid "Error: Post ID not provided in the request."
+msgstr "خطا: شناسه پست در درخواست ارائه نشده است."
+
+#: includes/ajax-handlers.php:NNN
+msgid "Error: Invalid Post ID received."
+msgstr "خطا: شناسه پست نامعتبر دریافت شد."
+
+#: includes/ajax-handlers.php:NNN
+msgid "You do not have permission to check the status for this post."
+msgstr "شما مجوز بررسی وضعیت برای این پست را ندارید."
+
+#: includes/ajax-handlers.php:NNN templates/checklist-functions.php:NNN
+msgid "Featured Image set."
+msgstr "تصویر شاخص تنظیم شده است."
+
+#: includes/ajax-handlers.php:NNN templates/checklist-functions.php:NNN
+msgid "Featured Image not set (Recommended)."
+msgstr "تصویر شاخص تنظیم نشده است (پیشنهاد می‌شود)."
+
+#: templates/checklist-box.php:NNN
+msgid "Main Keyword:"
+msgstr "کلمه کلیدی اصلی:"
+
+#: templates/checklist-box.php:NNN
+msgid "Enter the main target keyword"
+msgstr "کلمه کلیدی اصلی هدف را وارد کنید"
+
+#: templates/checklist-box.php:NNN
+msgid "The primary keyword or phrase this content targets."
+msgstr "کلمه یا عبارت اصلی که این محتوا هدف قرار می‌دهد."
+
+#: templates/checklist-box.php:NNN
+msgid "Related Keywords:"
+msgstr "کلمات کلیدی مرتبط:"
+
+#: templates/checklist-box.php:NNN
+msgid "keyword 1, phrase 2, keyword 3"
+msgstr "کلمه ۱, عبارت ۲, کلمه ۳"
+
+#: templates/checklist-box.php:NNN
+msgid "Comma-separated related terms or LSI keywords."
+msgstr "عبارات مرتبط یا کلمات کلیدی LSI، با کاما (,) جدا شوند."
+
+#: templates/checklist-box.php:NNN
+msgid "Google Preview"
+msgstr "پیش‌نمایش گوگل"
+
+#: templates/checklist-box.php:NNN
+msgid "SEO Title:"
+msgstr "عنوان سئو:"
+
+#: templates/checklist-box.php:NNN
+msgid "Optional, defaults to content title"
+msgstr "اختیاری، پیش‌فرض عنوان محتوا است"
+
+#: templates/checklist-box.php:NNN
+# Translators: %d: min length, %d: max length
+msgid "Optimal length: %d-%d chars. Uses main title if empty."
+msgstr "طول بهینه: %d-%d کاراکتر. در صورت خالی بودن از عنوان اصلی استفاده می‌شود."
+
+#: templates/checklist-box.php:NNN
+msgid "Meta Description:"
+msgstr "توضیحات متا:"
+
+#: templates/checklist-box.php:NNN
+msgid "Optional, defaults to excerpt or content start"
+msgstr "اختیاری، پیش‌فرض خلاصه یا ابتدای محتوا است"
+
+#: templates/checklist-box.php:NNN
+# Translators: %d: min length, %d: max length
+msgid "Optimal length: %d-%d chars. Google generates one if empty."
+msgstr "طول بهینه: %d-%d کاراکتر. در صورت خالی بودن، گوگل بخشی را انتخاب می‌کند."
+
+#: templates/checklist-box.php:NNN
+msgid "SEO & Content Checklist"
+msgstr "چک لیست سئو و محتوا"
+
+#: templates/checklist-box.php:NNN includes/checklist-functions.php:NNN
+msgid "Status pending."
+msgstr "وضعیت در انتظار."
+
+#: templates/checklist-box.php:NNN
+msgid "Overall Status:"
+msgstr "وضعیت کلی:"
+
+#: templates/checklist-box.php:NNN includes/checklist-functions.php:NNN
+msgid "Calculating..."
+msgstr "در حال محاسبه..."
+
+#: templates/checklist-box.php:NNN
+msgid "Configure Checklist"
+msgstr "پیکربندی چک لیست"
+
+#: includes/checklist-functions.php:NNN
+# Translators: %d: Character count, %d: Minimum required length
+msgid "Content length: %d characters (More than or equal to minimum %d)."
+msgstr "طول محتوا: %d کاراکتر (بیشتر یا مساوی حداقل %d)."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %d: Character count, %d: Minimum required length
+msgid "Content length: %d characters (Less than the recommended minimum of %d)."
+msgstr "طول محتوا: %d کاراکتر (کمتر از حداقل %d پیشنهاد شده)." # تکراری، اما با متن کمی متفاوت
+
+#: includes/checklist-functions.php:NNN
+# Translators: %d: Minimum required length
+msgid "Content is empty (Minimum %d characters recommended)."
+msgstr "محتوا خالی است (حداقل %d کاراکتر پیشنهاد می‌شود)."
+
+#: includes/checklist-functions.php:NNN
+#, php-format
+msgid "%d heading (H2-H6) used."
+msgid_plural "%d headings (H2-H6) used."
+msgstr[0] "%d هدینگ (H2-H6) استفاده شده است."
+msgstr[1] "%d هدینگ (H2-H6) استفاده شده است."
+
+#: includes/checklist-functions.php:NNN
+msgid "No headings (H2-H6) were used. Using headings is important for structure and SEO."
+msgstr "هیچ هدینگ (H2-H6) استفاده نشده است. استفاده از هدینگ‌ها برای ساختار و سئو مهم است."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword is missing. Please enter it in the field above."
+msgstr "کلمه کلیدی اصلی وارد نشده است. لطفا آن را در فیلد مربوطه وارد کنید."
+
+#: includes/checklist-functions.php:NNN
+msgid "SEO Title (Title Tag) not found or empty."
+msgstr "عنوان سئو (Title Tag) یافت نشد یا خالی است."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Length, %2$d: Min recommended, %3$d: Max recommended
+msgid "SEO Title length (%1$d characters) is within the optimal range (%2$d-%3$d)."
+msgstr "طول عنوان سئو (%1$d کاراکتر) در محدوده بهینه (%2$d-%3$d) است."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Length, %2$d: Min recommended, %3$d: Max recommended
+msgid "SEO Title length (%1$d characters) is outside the optimal range (%2$d-%3$d characters)."
+msgstr "طول عنوان سئو (%1$d کاراکتر) خارج از محدوده بهینه (%2$d-%3$d کاراکتر) است."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %d: Length
+msgid "No custom SEO title set (Using main title with %d characters). Setting a custom title is recommended."
+msgstr "عنوان سئو اختصاصی تنظیم نشده (از عنوان اصلی با %d کاراکتر استفاده می‌شود). تنظیم عنوان اختصاصی پیشنهاد می‌شود."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Length, %2$d: Min recommended, %3$d: Max recommended
+msgid "Meta description length (%1$d characters) is within the optimal range (%2$d-%3$d)."
+msgstr "طول توضیحات متا (%1$d کاراکتر) در محدوده بهینه (%2$d-%3$d) است."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Length, %2$d: Min recommended, %3$d: Max recommended
+msgid "Meta description length (%1$d characters) is outside the optimal range (%2$d-%3$d characters)."
+msgstr "طول توضیحات متا (%1$d کاراکتر) خارج از محدوده بهینه (%2$d-%3$d کاراکتر) است."
+
+#: includes/checklist-functions.php:NNN
+msgid "Meta Description not set. Setting one is recommended to improve CTR."
+msgstr "توضیحات متا (Meta Description) تنظیم نشده است. تنظیم آن برای بهبود CTR پیشنهاد می‌شود."
+
+#: includes/checklist-functions.php:NNN
+msgid "Featured image check is not applicable for categories/tags."
+msgstr "بررسی تصویر شاخص برای دسته‌بندی/برچسب کاربرد ندارد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Featured image status will be determined after the first save."
+msgstr "وضعیت تصویر شاخص پس از اولین ذخیره مشخص می‌شود."
+
+#: includes/checklist-functions.php:NNN
+msgid "Could not determine site address to check internal links."
+msgstr "امکان تشخیص آدرس سایت برای بررسی لینک داخلی وجود ندارد."
+
+#: includes/checklist-functions.php:NNN
+#, php-format
+msgid "%d internal link found in the content."
+msgid_plural "%d internal links found in the content."
+msgstr[0] "%d لینک داخلی در محتوا یافت شد."
+msgstr[1] "%d لینک داخلی در محتوا یافت شد."
+
+#: includes/checklist-functions.php:NNN
+msgid "No internal links found in the content. Internal linking helps SEO and user experience."
+msgstr "هیچ لینک داخلی در محتوا یافت نشد. لینک‌دهی داخلی به بهبود سئو و تجربه کاربری کمک می‌کند."
+
+#: includes/checklist-functions.php:NNN
+msgid "Could not determine site address to check external links."
+msgstr "امکان تشخیص آدرس سایت برای بررسی لینک خارجی وجود ندارد."
+
+#: includes/checklist-functions.php:NNN
+#, php-format
+msgid "%d external link (to other sites) found."
+msgid_plural "%d external links (to other sites) found."
+msgstr[0] "%d لینک خارجی (به سایت‌های دیگر) یافت شد."
+msgstr[1] "%d لینک خارجی (به سایت‌های دیگر) یافت شد."
+
+#: includes/checklist-functions.php:NNN
+msgid "No external links found in the content. Linking to external authoritative sources can be beneficial."
+msgstr "هیچ لینک خارجی در محتوا یافت نشد. ارجاع به منابع معتبر خارجی می‌تواند مفید باشد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not entered to check in title."
+msgstr "کلمه کلیدی اصلی برای بررسی در عنوان وارد نشده است."
+
+#: includes/checklist-functions.php:NNN
+msgid "Title not found for checking."
+msgstr "عنوان برای بررسی یافت نشد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword found in SEO title."
+msgstr "کلمه کلیدی اصلی در عنوان سئو یافت شد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword found at the start of the SEO title (Excellent!)."
+msgstr "کلمه کلیدی اصلی در ابتدای عنوان سئو یافت شد (عالی!)."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not found in SEO title. Including it (preferably near the start) is highly recommended."
+msgstr "کلمه کلیدی اصلی در عنوان سئو یافت نشد. قرار دادن آن (ترجیحاً در ابتدا) قویاً پیشنهاد می‌شود."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not entered to check in description."
+msgstr "کلمه کلیدی اصلی برای بررسی در توضیحات وارد نشده است."
+
+#: includes/checklist-functions.php:NNN
+msgid "Meta description not set for checking."
+msgstr "توضیحات متا برای بررسی تنظیم نشده است."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword found in meta description."
+msgstr "کلمه کلیدی اصلی در توضیحات متا یافت شد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not found in meta description. Including it can help improve CTR."
+msgstr "کلمه کلیدی اصلی در توضیحات متا یافت نشد. وجود آن می‌تواند به بهبود CTR کمک کند."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not entered to check in headings."
+msgstr "کلمه کلیدی اصلی برای بررسی در هدینگ‌ها وارد نشده است."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword found in at least one heading (H2-H6)."
+msgstr "کلمه کلیدی اصلی حداقل در یکی از هدینگ‌ها (H2-H6) یافت شد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not found in any heading (H2-H6). Using it in headings strengthens structure and relevance."
+msgstr "کلمه کلیدی اصلی در هیچ یک از هدینگ‌ها (H2-H6) یافت نشد. استفاده از آن در هدینگ‌ها ساختار و ارتباط موضوعی را تقویت می‌کند."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not entered to check density."
+msgstr "کلمه کلیدی اصلی برای بررسی تراکم وارد نشده است."
+
+#: includes/checklist-functions.php:NNN
+msgid "Analyzable content not found to calculate density."
+msgstr "محتوای قابل تحلیل برای محاسبه تراکم یافت نشد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Word count (after removing stop words) is zero."
+msgstr "تعداد کلمات (پس از حذف کلمات توقف) صفر است."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %s: Density percentage
+msgid "Keyword density (approximate): %s%%."
+msgstr "تراکم کلمه کلیدی (تقریبی): %s%%."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %s: Min density, %s: Max density
+msgid "Within the recommended range (%s%% - %s%%)."
+msgstr "در محدوده پیشنهادی (%s%% - %s%%)."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %s: Max density
+msgid "A bit high (More than %s%%). Watch out for keyword stuffing."
+msgstr "کمی بالاست (بیشتر از %s%%). مراقب تکرار بیش از حد (Keyword Stuffing) باشید."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %s: Min density
+msgid "A bit low (Less than %s%%). Consider using it more naturally if possible."
+msgstr "کمی پایین است (کمتر از %s%%). شاید بتوانید به طور طبیعی بیشتر از آن استفاده کنید."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not entered to check in URL."
+msgstr "کلمه کلیدی اصلی برای بررسی در URL وارد نشده است."
+
+#: includes/checklist-functions.php:NNN
+msgid "URL (Slug) not found for checking. Check after saving."
+msgstr "URL (اسلاگ) برای بررسی یافت نشد. پس از ذخیره بررسی کنید."
+
+#: includes/checklist-functions.php:NNN
+msgid "Part of the main keyword found in URL (Slug)."
+msgstr "بخشی از کلمه کلیدی اصلی در URL (اسلاگ) یافت شد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not found completely in URL (Slug), but parts of it exist."
+msgstr "کلمه کلیدی اصلی به طور کامل در URL (اسلاگ) یافت نشد، اما بخش‌هایی از آن وجود دارد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not found in URL (Slug). Including it can help SEO."
+msgstr "کلمه کلیدی اصلی در URL (اسلاگ) یافت نشد. وجود آن می‌تواند به سئو کمک کند."
+
+#: includes/checklist-functions.php:NNN
+msgid "No images found in the content."
+msgstr "هیچ تصویری در محتوا یافت نشد."
+
+#: includes/checklist-functions.php:NNN
+#, php-format
+msgid "Image %d has alt text."
+msgid_plural "All %d images have alt text."
+msgstr[0] "تصویر %d دارای متن جایگزین (alt) است."
+msgstr[1] "تمام %d تصاویر دارای متن جایگزین (alt) هستند."
+
+#: includes/checklist-functions.php:NNN
+#, php-format
+msgid "%d image out of %d is missing alt text."
+msgid_plural "%d images out of %d are missing alt text."
+msgstr[0] "%d تصویر از %d فاقد متن جایگزین (alt) است."
+msgstr[1] "%d تصویر از %d فاقد متن جایگزین (alt) هستند."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword found in at least one alt text."
+msgstr "کلمه کلیدی اصلی حداقل در یکی از متن‌های جایگزین یافت شد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not found in any alt text."
+msgstr "کلمه کلیدی اصلی در هیچ‌کدام از متن‌های جایگزین یافت نشد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Main keyword not entered to check in alt text."
+msgstr "کلمه کلیدی اصلی برای بررسی در متن جایگزین وارد نشده است."
+
+#: includes/checklist-functions.php:NNN
+msgid "Text content not found for structure analysis."
+msgstr "محتوای متنی برای تحلیل ساختار یافت نشد."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Percentage, %2$d: Word threshold
+msgid "Sentence length: %1$d%% sentences have more than %2$d words (Good)."
+msgstr "طول جملات: %1$d%% جملات بیش از %2$d کلمه دارند (خوب)."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Percentage, %2$d: Word threshold
+msgid "Sentence length: %1$d%% sentences have more than %2$d words. Try to shorten long sentences."
+msgstr "طول جملات: %1$d%% جملات بیش از %2$d کلمه دارند. سعی کنید جملات طولانی را کوتاه کنید."
+
+#: includes/checklist-functions.php:NNN
+msgid "Could not analyze sentence length."
+msgstr "تحلیل طول جملات ممکن نشد."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Percentage, %2$d: Word threshold
+msgid "Paragraph length: %1$d%% paragraphs have more than %2$d words (Good)."
+msgstr "طول پاراگراف‌ها: %1$d%% پاراگراف‌ها بیش از %2$d کلمه دارند (خوب)."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Percentage, %2$d: Word threshold
+msgid "Paragraph length: %1$d%% paragraphs have more than %2$d words. Long paragraphs reduce readability."
+msgstr "طول پاراگراف‌ها: %1$d%% پاراگراف‌ها بیش از %2$d کلمه دارند. پاراگراف‌های طولانی خوانایی را کاهش می‌دهند."
+
+#: includes/checklist-functions.php:NNN
+msgid "Could not analyze paragraph length."
+msgstr "تحلیل طول پاراگراف‌ها ممکن نشد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Text structure checked."
+msgstr "ساختار متن بررسی شد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Text content not found for readability analysis."
+msgstr "محتوای متنی برای تحلیل خوانایی یافت نشد."
+
+#: includes/checklist-functions.php:NNN
+msgid "Text is not long enough to calculate readability score."
+msgstr "متن برای محاسبه امتیاز خوانایی کافی نیست."
+
+#: includes/checklist-functions.php:NNN
+msgid "Very Easy"
+msgstr "بسیار آسان"
+
+#: includes/checklist-functions.php:NNN
+msgid "Easy"
+msgstr "آسان"
+
+#: includes/checklist-functions.php:NNN
+msgid "Fairly Easy"
+msgstr "نسبتاً آسان"
+
+#: includes/checklist-functions.php:NNN
+msgid "Standard / Average"
+msgstr "استاندارد / متوسط"
+
+#: includes/checklist-functions.php:NNN
+msgid "Fairly Difficult"
+msgstr "نسبتاً دشوار"
+
+#: includes/checklist-functions.php:NNN
+msgid "Difficult"
+msgstr "دشوار"
+
+#: includes/checklist-functions.php:NNN
+msgid "Very Difficult"
+msgstr "بسیار دشوار"
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Flesch score, %2$s: Readability level description
+msgid "Flesch Reading Ease score (approximate): %1$d (%2$s)."
+msgstr "امتیاز خوانایی Flesch (تقریبی): %1$d (%2$s)."
+
+#: includes/checklist-functions.php:NNN
+msgid "Higher scores mean better readability. Try to simplify complex words and sentences."
+msgstr "امتیاز بالاتر به معنی خوانایی بهتر است. سعی کنید جملات و کلمات پیچیده را ساده‌تر کنید."
+
+#: includes/checklist-functions.php:NNN
+msgid "(Note: Syllable calculation for Persian is approximate)."
+msgstr "(توجه: محاسبه هجا برای فارسی تقریبی است)."
+
+#: includes/checklist-functions.php:NNN
+msgid "Error performing check."
+msgstr "خطا در اجرای بررسی."
+
+#: includes/checklist-functions.php:NNN
+msgid "No checks enabled. Please visit the plugin settings page."
+msgstr "هیچ بررسی‌ای فعال نشده است. لطفا به صفحه تنظیمات افزونه مراجعه کنید."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Score percentage, %2$d: Number of errors
+msgid "Overall Status: Poor (%1$d%%) - %2$d errors need immediate attention."
+msgstr "وضعیت کلی: ضعیف (%1$d%%) - %2$d مورد خطا نیاز به بررسی فوری دارند."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %1$d: Score percentage, %2$d: Number of warnings
+msgid "Overall Status: Average (%1$d%%) - %2$d items have suggestions for improvement."
+msgstr "وضعیت کلی: متوسط (%1$d%%) - %2$d مورد پیشنهاد بهبود دارند."
+
+#: includes/checklist-functions.php:NNN
+# Translators: %d: Score percentage
+msgid "Overall Status: Good (%d%%) - Main checks passed."
+msgstr "وضعیت کلی: خوب (%d%%) - موارد اصلی رعایت شده‌اند."
+
+#: includes/checklist-functions.php:NNN
+msgid "Overall Status: Pending more input or content completion..."
+msgstr "وضعیت کلی: در انتظار ورود اطلاعات بیشتر یا تکمیل محتوا..."
+
+#: includes/checklist-functions.php:NNN
+msgid "Overall Status: Not enough information to evaluate."
+msgstr "وضعیت کلی: اطلاعات کافی برای ارزیابی وجود ندارد."
